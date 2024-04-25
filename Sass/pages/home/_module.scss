@@ -1,0 +1,55 @@
+.module{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 500px;
+    background: #f1f1f1;
+    z-index: 999;
+    padding: 100px 50px;
+    border-radius: 20px;
+
+
+&__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+&__title {
+    display: flex; 
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+input{
+    width: 70%;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+&__error{
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+&__btn{
+    width: 70%;
+    background: $primaryCl;
+    padding: 8px;
+}
+&__back-btn{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+    color: $primaryCl;
+}
+}
