@@ -6,7 +6,7 @@ function checkUser() {
   }
 }
 
-logOut.addEventListener("submit", () => {
+logOut.addEventListener("click", () => {
   console.log("ok");
   localStorage.clear();
   window.open("../index.html");

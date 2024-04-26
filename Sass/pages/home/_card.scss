@@ -1,0 +1,38 @@
+.single__container {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.single__content {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  // justify-content: space-around;
+  gap: 100px;
+}
+.data__title {
+  font-size: 45px;
+}
+
+.card__span {
+  font-weight: 700;
+  font-size: 20px;
+}
+.card__desc {
+  // color: red;
+  width: 30%;
+}
+
+.card__price {
+  color: #46a358;
+}
+
+@media screen and (max-width: 1000px) {
+  .single__content {
+    flex-direction: column;
+  }
+}
