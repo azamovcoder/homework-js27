@@ -195,7 +195,7 @@ main {
   font-size: 18px;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 900px) {
   .header {
     padding-top: 10px;
   }
@@ -229,6 +229,12 @@ main {
   }
   .header__show__left {
     left: -100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .header__navbar {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 @media (max-width: 340px) {
@@ -286,6 +292,7 @@ main {
   color: #727272;
 }
 .hero__btn {
+  margin-bottom: 50px;
   padding: 8px 26px;
   background: #46a358;
   color: #fff;
@@ -330,6 +337,11 @@ main {
 @media screen and (max-width: 850px) {
   .hero__container {
     flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 550px) {
+  .hero__right {
+    padding-top: 100px;
   }
 }
 .footer .footer__top {

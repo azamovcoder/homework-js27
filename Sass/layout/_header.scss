@@ -114,7 +114,7 @@
   font-size: 18px;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 900px) {
   .header {
     padding-top: 10px;
     &__list {
@@ -152,6 +152,12 @@
     &__show__left {
       left: -100%;
     }
+  }
+}
+@media screen and (max-width: 550px) {
+  .header__navbar {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

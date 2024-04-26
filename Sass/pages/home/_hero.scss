@@ -37,6 +37,7 @@
     color: #727272;
   }
   &__btn {
+    margin-bottom: 50px;
     padding: 8px 26px;
     background: #46a358;
     color: #fff;
@@ -93,5 +94,11 @@
     &__container {
       flex-direction: column-reverse;
     }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero__right {
+    padding-top: 100px;
   }
 }
