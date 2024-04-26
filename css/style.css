@@ -425,6 +425,10 @@ main {
   color: #46a358;
 }
 
+main {
+  padding-bottom: 50px;
+}
+
 .admin__input {
   display: flex;
   flex-direction: column;
